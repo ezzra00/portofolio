@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profil Diri - Nama Lengkap</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="bolt" viewBox="0 0 100 110"><path d="M60 0 15 62h27L30 110 85 38H55L72 0z" fill="currentColor"/></symbol>
+  </svg>
+
+  <div class="sapuan" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a class="logo" href="#atas"><svg class="ikon"><use href="#bolt"/></svg>Profil</a>
+    <button class="tombol" id="btnTema" type="button">
+      <svg class="ikon"><use href="#bolt"/></svg><span id="labelTema">Mode Terang</span>
+    </button>
+  </nav>
+
+  <main class="halaman" id="atas">
+
+    <header class="hero">
+      <svg class="petir-bg" viewBox="0 0 100 110" aria-hidden="true"><use href="#bolt"/></svg>
+
+      <div class="hero-teks">
+        <p class="chip"><svg class="ikon"><use href="#bolt"/></svg>Profil Diri</p>
+        <h1>Ezzra Nugroho Sugiarto</h1>
+        <p class="sub">Rekayasa Keamanan Siber &middot; Politeknik Negeri Cilacap</p>
+
+        <p class="intro">
+          mahasiswa Rekayasa Keamanan Siber di Politeknik Negeri Cilacap yang memiliki minat pada cybersecurity, teknologi, dan pengembangan diri. Saya aktif dalam organisasi dan kepemimpinan, serta senang mempelajari hal baru, berkolaborasi, dan mengembangkan kemampuan teknis maupun interpersonal untuk menciptakan solusi yang bermanfaat.
+        </p>
+
+        <dl class="data">
+          <div><dt>Nama</dt><dd>Ezzra Nugroho Sugiarto</dd></div>
+          <div><dt>NPM</dt><dd>260109010</dd></div>
+          <div><dt>Program Studi</dt><dd>Rekayasa Keamanan Siber</dd></div>
+          <div><dt>Kampus</dt><dd>Politeknik Negeri Cilacap</dd></div>
+        </dl>
+      </div>
+
+      <div class="bingkai"><img class="foto" src="Ezzra.jpg" alt="Foto Nama Lengkap"></div>
+    </header>
+
+    <section class="kartu reveal">
+      <h2>Riwayat Pendidikan</h2>
+      <div class="bungkus-tabel">
+        <table>
+          <thead><tr><th>Tahun</th><th>Jenjang</th><th>Sekolah / Kampus</th></tr></thead>
+          <tbody>
+            <tr><td>2014 - 2020</td><td>SD</td><td>SDN tegalreja 04</td></tr>
+            <tr><td>2020 - 2023</td><td>SMP</td><td>SMPN 8 Cilacap</td></tr>
+            <tr><td>2023 - 2026</td><td>SMA / SMK</td><td>SMAN 1 Cilacap</td></tr>
+            <tr><td>2026 - sekarang</td><td>D4</td><td>Politeknik Negeri Cilacap</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="kartu reveal">
+      <h2>Tautan</h2>
+      <div class="baris-tombol">
+        <a class="tombol" href="https://www.pnc.ac.id" target="_blank" rel="noopener">Situs Kampus</a>
+        <a class="tombol" href="https://www.linkedin.com/in/ezzra-nugroho-sugiarto-b8310137b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+    <section class="kartu reveal">
+      <h2>Hobi</h2>
+      <button class="tombol penuh" id="btnHobi" type="button" aria-expanded="false" aria-controls="daftarHobi">Tampilkan Hobi</button>
+      <div class="lipat" id="daftarHobi">
+        <div>
+          <ul class="chip-hobi">
+            <li>volly</li>
+            <li>gaming</li>
+            <li>mencoba hal baru</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>Dibuat dengan HTML, CSS, dan JavaScript untuk UTS Praktikum PTIL.</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
